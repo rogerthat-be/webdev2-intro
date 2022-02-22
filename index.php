@@ -4,6 +4,8 @@
 require 'vendor/autoload.php';
 
 /** namespaces */
+
+use App\Library;
 use Carbon\Carbon;
 use Faker\Factory as Faker;
 
@@ -11,7 +13,9 @@ use Faker\Factory as Faker;
 // declaration of variables
 $faker = Faker::create();
 
-// Library::sayHello('Thibaut\'s moeder');
+
+$lib = new Library();
+$lib->sayHello();
 
 
 
