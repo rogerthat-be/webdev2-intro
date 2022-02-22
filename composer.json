@@ -1,0 +1,20 @@
+{
+    "name": "webdev2/intro-to-composer",
+    "description": "A brief introduction to Composer & autoloading",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Frederick Roegiers",
+            "email": "frederick@rogerthat.be"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^2.57",
+        "fakerphp/faker": "^1.19"
+    }
+}
